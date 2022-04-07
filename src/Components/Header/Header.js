@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import style from './header.module.css'
 
 const Header = () => {
   return (
-    <img src="/images/logo.png" alt="Star Wars" className={style.logo} />
+    <Link to="/"><img src="/images/logo.png" alt="Star Wars" className={style.logo} /></Link>
   )
 }
 
